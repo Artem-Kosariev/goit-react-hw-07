@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.formContainer,
+.listContainer {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ContactForm {
+  margin-bottom: 30px;
+}
+
+.SearchBox {
+  margin-bottom: 20px;
+}
+
+.ContactList {
+  margin-top: 20px;
+}

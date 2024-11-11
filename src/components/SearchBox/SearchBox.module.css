@@ -1,0 +1,25 @@
+/* SearchBox.module.css */
+
+/* Контейнер для SearchBox */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0; /* Добавим отступ сверху и снизу */
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px; /* Ограничим ширину поля ввода */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
